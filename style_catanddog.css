@@ -1,0 +1,53 @@
+/* обнуление */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* границы и размеры */
+.dog_ {
+    margin: 0 auto;
+    width: 75%;
+    max-width: 1200px;
+    min-width: 400px;
+}
+
+.cat_ {
+    margin: 0 auto;
+    width: 75%;
+    max-width: 1200px;
+    min-width: 400px;
+}
+
+/* фотографии */
+img {
+    height: 400px;
+    width: 600px;
+    object-fit: contain;
+}
+
+
+/* цвет текста */
+.dog_ {
+    h4 {
+        color: khaki;
+    }
+
+    p {
+        color: blue;
+    }
+}
+
+.cat_ {
+    color: violet;
+     
+    p {
+        color: aqua;
+    }
+}
+
+body {
+    background-color: honeydew;
+}
